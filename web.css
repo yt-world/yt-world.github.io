@@ -1,0 +1,83 @@
+body {
+  background-color: #381e3fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+header{
+background:orange;
+height:50px;
+}
+header > ul > li > a{
+text-decoration:none;
+border:none;
+outline:none;
+padding:10px;
+font-size:15px;
+color:white;
+overflow:hidden;
+float:left;
+
+}
+header > ul > li > h1{
+font-size:20px;
+margin-left:700px;
+color:green;
+}
+header > ul{
+list-style-type:none;
+display:flex;
+padding:0;
+
+}
+@media screen and(max-width:1140px){
+
+header > ul > li > a{
+padding:10px;
+font-size:5px;
+
+}
+header > ul > li > h1{
+font-size:5px;
+margin-left:400px;
+}
+}
+#hi{
+color:black;
+outline:1px solid white;
+background:white;
+}
+#rec{
+color:yellow;
+font-family:Fantasy;
+animation:rec 4s infinite;
+}
+@keyframes rec{
+15%{color: red}
+45%{color: blue}
+75%{color: green}
+100%{color: yellow}
+}
+.SignSign{
+border:none;
+outline:none;
+color:orange;
+
+}
+.SignSign:hover{
+color:red;
+font-size:15px;
+opacity:4;
+
+}
+.ytchannel{
+border:none;
+outline:none;
+color:orange;
+
+}
+.ytchannel:hover{
+color:blue;
+font-size:15px;
+opacity:4;
+
