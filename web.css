@@ -80,4 +80,25 @@ color:orange;
 color:blue;
 font-size:15px;
 opacity:4;
+}
+.Lmusic{
+border:none;
+outline:none;
+text-decoration:none;
+color:white;
+font-size:15px;
 
+
+}
+#btn{
+border:none;
+outline:none;
+background:green;
+width:200px;
+height:40px;
+}
+#btn:hover{
+background:black;
+cursor:pointer;
+
+}
