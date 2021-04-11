@@ -4,6 +4,31 @@
     <link rel="stylesheet" href="web.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>YTworld</title>
+    <style>
+.OpenChat{
+border:none;
+outline:none;
+width:300px;
+height:50px;
+margin-top:20px;
+border-radius:40px;
+background:purple;
+color:green;
+} 
+.OpenChat > a{
+text-decoration:none;
+font-size:30px;
+color:white;
+}
+.OpenChat:hover{
+border-radius:10px;
+background:white;
+
+}
+.OpenChat > a:hover{
+color:black;
+}
+</style>
 </head>
 <body>
 <header id="header">
@@ -22,6 +47,7 @@
 <li><a href='/signsignup/' class="SignSign"> SignIn/SignUp</a></li>
 <li><a href='/channels/' class="ytchannel"> YT Channels</a></li>
     <button id="btn"><a href="/song/" class="Lmusic">Listen MUSIC!</a></button>
+    <button class="OpenChat"><a href="/chats">Open Chat</a></button>
 </center>
     
 <script src="web.js">
